@@ -1,0 +1,20 @@
+[project]
+name = "crewai_report_generation_app"
+version = "0.1.0"
+description = "crewai-report-generation-app using crewAI"
+authors = [{ name = "Vinod Pillai", email = "vinodthebest@gmail.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.76.9,<1.0.0"
+]
+
+[project.scripts]
+crewai_report_generation_app = "crewai_report_generation_app.main:run"
+run_crew = "crewai_report_generation_app.main:run"
+train = "crewai_report_generation_app.main:train"
+replay = "crewai_report_generation_app.main:replay"
+test = "crewai_report_generation_app.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
