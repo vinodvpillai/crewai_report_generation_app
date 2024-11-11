@@ -1,7 +1,8 @@
 # Crewai-Report-Generation-App
 
-A streamlined application built with **CrewAI** for generating reports using intelligent agent orchestration. This repository includes configurations for agents and tasks, crew management logic, and a main entry point for passing user queries.Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+A streamlined application built with **CrewAI** for generating reports using intelligent agent orchestration. This repository includes configurations for agents and tasks, crew management logic, and a main entry point for passing user queries. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
+![](https://github.com/vinodvpillai/crewai_report_generation_app/blob/master/resources/output.gif)
 ## Project Structure
 
 The repository consists of the following key files:
